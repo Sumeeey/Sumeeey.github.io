@@ -22,3 +22,44 @@ section{
     filter: drop-shadow (5px 5px 10px #000000);
     
 }
+
+.header {
+  background-image: url('sumeey/background3.jpg ');
+  background-size: cover;
+  font-size: 16px;
+  color: black;
+  
+}
+.section {
+  background-image: url('sumeey/background4.jpg');
+  background-size: cover;
+  font-size: 16px;
+  color: black;
+}
+.aim {
+  background-image: url('sumeey/background2.jpg');
+  background-size: cover;
+  font-size: 16px;
+  color: black;
+  
+}
+
+
+.contact {
+  background-image: url('sumeey/background5.jpg');
+  background-size: cover;
+  font-size: 16px;
+  color: ghostwhite;
+  
+}
+
+nav{
+  background-color: navajowhite;
+  margin: 0.1rem;
+  padding: 0rem 4rem;
+  font-size: 16px;
+  display: flex; align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  
+}
