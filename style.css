@@ -77,3 +77,24 @@ botton {
   font-size: 16px;
   justify-content: center;
 }
+.parent{
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  width:100%;
+  position:fixed;
+  background-color: purple;
+}
+.parent img{
+  width:40px;
+  border-radius: 50%;
+  padding:5px;
+}
+.menu{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu a{
+  margin-left:5px;
+}
