@@ -96,5 +96,14 @@ botton {
   align-items: center;
 }
 .menu a{
-  margin-left:5px;
+  margin-left:10px;
+  font-weight: 700;
+  
+}
+.footer{
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  width:100%;
+  background-color: purple;
 }
