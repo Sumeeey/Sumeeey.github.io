@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Simple Project</title>
+  <style>
+    div {
+      border: 20px;
+      text-align: center;
+    }
+
+    input {
+      margin: 10px;
+    }
+
+    body {
+      background-color: steelblue;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="project">
+    <form onsubmit="local(event)">
+      <label for="name">Name:</label> <br>
+      <input type="text" id="name" placeholder="Sumayyah Bamba"> <br>
+      <label for="age">Age:</label> <br>
+      <input type="number" id="age" placeholder="1, 2..."> <br>
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+  <script>
+    function local(event) {
+      event.preventDefault();
+      const name = document.getElementById('name').value;
+      const age = document.getElementById('age').value;
+      alert(`My name is ${name} and I am ${age} years old.`);
+    }
+  </script>
+</body>
+
+</html>
